@@ -1,6 +1,7 @@
-s = int(input("Input your size ---> "))
-    
-for a in range(s):
-    for b in range(a):
-        print("*", end=" ")
-    print()
+c = 4
+
+for a in range(1, c + 1):
+    print(" " * (c - a) + "* " * a)
+
+for a in range(c - 1, 0, -1):
+    print(" " * (c - a) + "* " * a)
